@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/chunks-of-bytecode.html#disassembling-chunks
+- http://craftinginterpreters.com/chunks-of-bytecode.html#value-arrays
