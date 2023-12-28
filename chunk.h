@@ -15,13 +15,14 @@ typedef enum {
 typedef struct {
   int count;     // used array elements
   int capacity;  // total array size (allocated)
-  uint8_t* code;
+  uint8_t* code; // contains opcodes + operands (operand = index of the value in the constants array)
+  int* lines;    // lines[i] is the line of code where we got instruction code[i] from
   ValueArray constants;
 } Chunk;
 
 void initChunk(Chunk* chunk);
 void freeChunk(Chunk* chunk);
-void writeChunk(Chunk* chunk, uint8_t byte);
+void writeChunk(Chunk* chunk, uint8_t byte, int line);
 int addConstant(Chunk* chunk, Value value);
 
 #endif
