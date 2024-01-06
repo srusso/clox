@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/a-virtual-machine.html
+- http://craftinginterpreters.com/scanning-on-demand.html
