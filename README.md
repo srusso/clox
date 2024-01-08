@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/compiling-expressions.html#parsing-prefix-expressions
+- http://craftinginterpreters.com/compiling-expressions.html#parentheses-for-grouping
