@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/scanning-on-demand.html#identifiers-and-keywords
+- http://craftinginterpreters.com/compiling-expressions.html#parsing-prefix-expressions
