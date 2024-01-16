@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/compiling-expressions.html#parentheses-for-grouping
+- http://craftinginterpreters.com/types-of-values.html
