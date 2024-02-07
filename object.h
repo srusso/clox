@@ -24,6 +24,7 @@ struct ObjString {
   Obj obj;    // this is how we do "inheritance". ObjString is an Obj, so it needs to have all the Obj's values
   int length;
   char* chars;
+  uint32_t hash;
 };
 
 ObjString* takeString(char* chars, int length);
