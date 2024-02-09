@@ -3,4 +3,4 @@ The clox bytecode interpreter from the book [Crafting Interpreters](https://craf
 
 Next up:
 
-- http://craftinginterpreters.com/hash-tables.html#retrieving-values
+- http://craftinginterpreters.com/hash-tables.html#string-interning

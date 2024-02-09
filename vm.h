@@ -3,6 +3,7 @@
 
 #include "chunk.h"
 #include "value.h"
+#include "table.h"
 
 #define STACK_MAX 256
 
@@ -11,6 +12,7 @@ typedef struct {
   uint8_t* ip; // instruction pointer, points to the instruction to be executed
   Value stack[STACK_MAX];
   Value* stackTop;
+  Table strings; // our internalized strings!! this is why string == string works.
   Obj* objects; // all of our heap allocated objects!
 } VM;
 
